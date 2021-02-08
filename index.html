@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hungry Monster</title>
+     
+          <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    </head>
+    <body>
+
+        <div id="foodsDetails" class="collapse mx-auto" style="width:250px; height: 250px;"></div>
+
+        <!-- Search Bar -->
+
+        <div class="search-bar col-md-6 mx-auto">
+            <h1 class="text-center">Hungry Monster</h1>
+            <div class="search-box my-5">
+                <input id="search-field" type="text" class="form-control" placeholder="Enter your food  name">
+                <button  id="search-btn" class="btn btn-success search-btn">Search</button>
+            </div>
+        </div>
+
+        <!-- End Search Bar -->
+
+        <!-- Foods Area  -->
+        <section class="container py-5">
+            <div id="foods" class="row g-3"></div>
+        </section>
+        <!-- End Foods Area -->
+
+
+  
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
